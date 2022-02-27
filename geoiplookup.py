@@ -84,7 +84,6 @@ else:
     exit(2)
 
 if ip != None: 
-  #with geoip2.webservice.Client(320823, 'nwWOtnRBOdPXcPBS','geolite.info') as client:
   with geoip2.database.Reader(GeoIP2CityDBPath) as client:
 
     # You can also use `client.city` or `client.insights`
