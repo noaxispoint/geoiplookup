@@ -85,11 +85,7 @@ else:
 
 if ip != None: 
   with geoip2.database.Reader(GeoIP2CityDBPath) as client:
-
-    # You can also use `client.city` or `client.insights`
-    # `client.insights` is not available to GeoLite2 users
     response = client.city(ip)
-
     print("IP: " + ip)
     print("City: " + str(response.city.name))
     print("Country: " + str(response.country.name))
