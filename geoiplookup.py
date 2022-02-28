@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+
 Copyright 2022 Travis Conway
 
 Redistribution and use in source and binary forms, with or without modification, 
