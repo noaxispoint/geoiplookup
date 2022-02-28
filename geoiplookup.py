@@ -97,3 +97,5 @@ if ip != None:
     print("\tNetwork: " + str(response.traits.network))
 else:
   print("There is no ip address given. " + ip)
+
+#EOF
